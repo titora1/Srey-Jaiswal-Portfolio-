@@ -54,6 +54,7 @@ export const CV_DATA = {
     statement:
       'Undergraduate engineer focused on digital hardware architectures, RTL design in SystemVerilog/Verilog, FPGA prototyping on Xilinx PYNQ-Z2, pipelined RISC-V processor cores, and systolic neural network acceleration.',
     phone: '+91 6371714883',
+    whatsapp: '+91 8852004883',
     email: 'shreyjaiswal2005@gmail.com',
     location: 'Chennai, India',
     degree: 'B.Tech in Electronics Engineering (VLSI Design & Technology)',

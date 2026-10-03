@@ -53,24 +53,18 @@ export const About: React.FC = () => {
             // Engineering Philosophy & Trajectory
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-slate-100 leading-tight">
-            BUILDING AT THE INTERSECTION OF HARDWARE AND COMPUTATION.
+            ABOUT ME
           </h2>
         </div>
 
         {/* Narrative & Metrics */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-16">
           <div className="lg:col-span-7 space-y-6 text-slate-300 leading-relaxed text-base">
-            <p>
-              I am an Electronics Engineering student at{' '}
-              <span className="text-slate-100 font-medium">{CV_DATA.personal.university}</span>,
-              specializing in <span className="text-slate-100 font-medium">VLSI Design & Technology</span>{' '}
-              with a cumulative <span className="text-cyan-300 font-semibold font-mono">CGPA of 9.08/10</span>.
-            </p>
-            <p className="text-slate-400">
-              My engineering work is rooted in hardware description languages, synthesizable digital design, and
-              microarchitectural optimization. I work across the design stack—from designing 32-bit RISC-V pipelined
-              datapaths in Verilog to implementing 100 MHz output-stationary systolic arrays on Xilinx FPGAs and
-              coupling them with ARM processing systems via AXI interfaces.
+            <p className="text-slate-200 leading-relaxed">
+              I’m Srey Jaiswal, a third-year B.Tech student in Electronics and Engineering, specializing in VLSI at SRM Institute of Science and Technology. My interests include digital design, FPGA systems, and computer architecture. Through projects on RISC-V processors and a neural-network accelerator, I’ve gained hands-on experience in RTL design and simulation using Verilog and Vivado.
+              <span className="block mt-3 font-mono font-semibold text-cyan-300 text-sm">
+                CGPA:- 9.08/10
+              </span>
             </p>
             <p className="text-slate-400">
               Beyond digital silicon and FPGA accelerators, I contribute to real-world automotive electrical
